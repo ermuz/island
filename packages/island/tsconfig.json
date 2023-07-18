@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@runtime/*": [
+        "./src/runtime/*"
+      ]
+    }
+  },
+  "exclude": [
+    "**.config.ts",
+    "./scripts/**",
+    "./docs/**",
+  ]
+}
